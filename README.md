@@ -1,4 +1,4 @@
-zf-feed-reader
+Leitor de feeds PHP/ZF2
 ==============
 
-Leitor de feeds PHP/ZF2
+

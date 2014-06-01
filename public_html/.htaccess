@@ -1,0 +1,30 @@
+
+DirectoryIndex index.html index.php
+Options All -Indexes
+
+AddType     image/svg+xml              svg svgz
+AddEncoding gzip                       svgz
+AddType application/vnd.ms-fontobject  eot
+AddType application/x-font-ttf         ttf ttc
+AddType application/x-font-woff        woff
+AddType font/opentype                  otf
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteBase /zf-feed-reader.com.br/public_html
+
+# Rewrite para o minify
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.*\.(css|js))$ index.php?$1&param=minify
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::\2$
+RewriteRule ^(.*) - [E=BASE:%1]
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [NC,L]
