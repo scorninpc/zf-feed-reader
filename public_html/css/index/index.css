@@ -1,0 +1,19 @@
+.template-content {
+	
+}
+.template-content .tab-header {
+	background: #ccc url(../../images/allbg.png) repeat;
+	padding: 5px 10px;
+}
+.template-content .tab-header .tabs {
+	list-style: none;
+	overflow: auto; width: 100%;
+}
+.template-content .tab-header .tabs li {
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+.template-content .tab-header .tabs li a {
+	color: #FFF;
+}

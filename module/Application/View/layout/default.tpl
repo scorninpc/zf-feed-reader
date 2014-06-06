@@ -27,6 +27,7 @@
 		</div>
 		
 		<script type="text/javascript" src="{$this->basePath()}/js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="{$this->basePath()}/js/plugins.js"></script>
 		<script type="text/javascript" src="{$this->basePath()}/js/global.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEue4kmz38Yk-crTMOHd4zcnSt8yhoFG4&amp;sensor=false"></script>
 		
