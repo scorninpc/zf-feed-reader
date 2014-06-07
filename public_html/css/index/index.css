@@ -2,8 +2,7 @@
 	
 }
 .template-content .tab-header {
-	background: #ccc url(../../images/allbg.png) repeat;
-	padding: 5px 10px;
+	background: #333 url(../../images/allbg.png) repeat;
 }
 .template-content .tab-header .tabs {
 	list-style: none;
@@ -13,7 +12,39 @@
 	float: left;
 	list-style: none;
 	margin-right: 10px;
+	height: 30px; 
+	line-height: 30px;
+	padding: 0 10px;
+}
+.template-content .tab-header .tabs li.actived {
+    border-bottom: 5px #00C2FF solid;
+	
 }
 .template-content .tab-header .tabs li a {
 	color: #FFF;
 }
+
+.tab-content {}
+.tab-content .tab-inside-content {
+    /* text-align: center; */
+    display: table;
+}
+.tab-content .tab-inside-content ul { /* margin:0 auto; */
+ 
+    display: table-cell;
+   
+}
+.tab-content .tab-inside-content ul li {
+    border: 1px #C9C9C9 solid;
+    width: 280px;
+    height: 335px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 5px;
+    margin: 10px 5px;
+    text-align: left;    
+    float: left;
+}
+.tab-content .tab-inside-content ul li div {}
+.tab-content .tab-inside-content ul li div img {}
+.tab-content .tab-inside-content ul li div a {}

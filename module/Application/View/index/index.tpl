@@ -1,7 +1,7 @@
 <div class="template-content">
 	<div class="tab-header">
 		<ul class="tabs">
-			<li class="geral">
+			<li class="geral actived">
 				<a href="tab-geral">Noticias</a>
 			</li>
 			<li class="geral">
@@ -17,64 +17,74 @@
 			<ul>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2>
-							<a href=""></a>
-						</h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 				<li>
 					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
-					</div>
-				</li>
-				<li>
-					<div>
-						<img src="" alt=""/>
-						<h2><a href=""></a></h2>
+						<a href="#">
+							<img src="http://lorempixel.com/280/280" alt=""/>
+							<span>Não seja enganado pelo SHRTURL, que coloca notícias falsas em sites legítimos</span>
+						</a>
 					</div>
 				</li>
 			</ul>
